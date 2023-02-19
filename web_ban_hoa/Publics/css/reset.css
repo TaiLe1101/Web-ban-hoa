@@ -1,0 +1,35 @@
+﻿* {
+    padding:0px;
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    font-family: Arial;
+    font-size:1.8rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,li {
+    list-style: none;
+
+}
+
+button {
+    outline:none;
+    border:none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding:0;
+    margin:0;
+}

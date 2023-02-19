@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web_ban_hoa", "web_ban_hoa\web_ban_hoa.csproj", "{9892B3CE-A1DA-4DD5-AC6F-74B09CF11B6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9892B3CE-A1DA-4DD5-AC6F-74B09CF11B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9892B3CE-A1DA-4DD5-AC6F-74B09CF11B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9892B3CE-A1DA-4DD5-AC6F-74B09CF11B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9892B3CE-A1DA-4DD5-AC6F-74B09CF11B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D84AC917-436C-46E6-82C5-8DC7B7476E32}
+	EndGlobalSection
+EndGlobal

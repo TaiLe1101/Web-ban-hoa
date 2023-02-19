@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="home.master.cs" Inherits="web_ban_hoa.layouts.home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Web bán hoa</title>
+    <link href="../Publics/css/reset.css" rel="stylesheet" />
+    <link href="../Publics/css/styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <header class="header">
+                <a href="/" class="logo-link">
+                    <img src="../publics/images/logo-hoa-yeu-thuong.png" class="logo-link__img" />
+                </a>
+                <div class="wrapper-search">
+                    <div class="search">
+                        <asp:TextBox ID="txtSearch" CssClass="search__input" placeholder="Tìm sản phẩm" runat="server">
+                        </asp:TextBox>
+                        <asp:Button ID="btnSearch" CssClass="search__btn" runat="server" Text="Tìm kiếm"
+                            OnClick="btnSearch_Click" />
+                    </div>
+                    <div class="wrapper-contact">
+                        <div class="contact">
+                            <a href="#" class="contact__link contact__link--title">Hotline Miền Nam</a>
+                            <a href="#" class="contact__link contact__link--number">0865850073</a>
+                        </div>
+                        <div class="contact">
+                            <a href="#" class="contact__link contact__link--title">Hotline Miền bắc</a>
+                            <a href="#" class="contact__link contact__link--number">0865850073</a>
+                        </div>
+
+                        <div class="contact">
+                            <a href="#" class="contact__link contact__link--img">
+                                <img src="../publics/images/zalo-chat-icon.png" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-cart">
+                    <div class="wrapper-cart__item">
+                        <asp:ImageButton ID="ibtnCart" CssClass="header-btn header-btn--cart" ImageUrl="~/Publics/images/shopping-bag.png"
+                            runat="server" OnClick="ibtnCart_Click" />
+                        <span>Giỏ hàng
+                                 (<asp:Label ID="lblCount" runat="server" Text="0"></asp:Label>)
+                        </span>
+                    </div>
+
+                    <div class="wrapper-cart__item">
+                        <asp:ImageButton ID="ImageButton2" CssClass="header-btn header-btn--cart" ImageUrl="~/Publics/images/user.png"
+                            runat="server" />
+                        <span>Tài khoản</span>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <nav class="navigate">
+            <div class="container">
+                <asp:Menu ID="Menu1" runat="server" CssClass="nav-list">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Pages/home.aspx" Text="Trang chủ"
+                            Value="Trang chủ" Selected="True"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Pages/home.aspx" Text="Chủ đề"
+                            Value="Chủ đề"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Pages/home.aspx" Text="Đối tượng"
+                            Value="Đối tượng"></asp:MenuItem>
+                        <asp:MenuItem Text="Kiểu dáng" Value="Kiểu dáng"></asp:MenuItem>
+                        <asp:MenuItem Text="Hoa tươi" Value="Hoa tươi"></asp:MenuItem>
+                        <asp:MenuItem Text="Màu sắc" Value="Màu sắc"></asp:MenuItem>
+                        <asp:MenuItem Text="Bộ sưu tập" Value="Bộ sưu tập"></asp:MenuItem>
+                        <asp:MenuItem Text="Quà tặng kèm" Value="Quà tặng kèm"></asp:MenuItem>
+                        <asp:MenuItem Text="Hoa cưới" Value="Hoa cưới"></asp:MenuItem>
+                        <asp:MenuItem Text="Ý nghĩa hoa" Value="Ý nghĩa hoa"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </nav>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
