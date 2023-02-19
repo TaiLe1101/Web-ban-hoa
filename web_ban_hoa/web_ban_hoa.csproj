@@ -74,10 +74,14 @@
     <Content Include="Global.asax" />
     <Content Include="Pages\cart_page.aspx" />
     <Content Include="Pages\home.aspx" />
+    <Content Include="Pages\login_page.aspx" />
     <Content Include="Publics\css\home_page.css" />
     <Content Include="Publics\css\reset.css" />
     <Content Include="Publics\css\styles.css" />
     <Content Include="Publics\images\10258_white-roses.jpg" />
+    <Content Include="Publics\images\11588_my-queen.png" />
+    <Content Include="Publics\images\13370_congrats-mini-size-3.png" />
+    <Content Include="Publics\images\8141_scarlet.png" />
     <Content Include="Publics\images\icon-cay-vp.png" />
     <Content Include="Publics\images\icon-hoa-chuc-mung.png" />
     <Content Include="Publics\images\icon-hoa-sinh-nhat.png" />
@@ -117,6 +121,13 @@
     </Compile>
     <Compile Include="Pages\home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\login_page.aspx.cs">
+      <DependentUpon>login_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\login_page.aspx.designer.cs">
+      <DependentUpon>login_page.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

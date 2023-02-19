@@ -16,12 +16,17 @@ namespace web_ban_hoa.layouts
 
         protected void btnSearch_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         protected void ibtnCart_Click(object sender, ImageClickEventArgs e)
         {
             Response.Redirect("/Pages/cart_page.aspx");
+        }
+
+        protected void ibtnLogin_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/Pages/login_page.aspx");
         }
     }
 }

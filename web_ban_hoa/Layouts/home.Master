@@ -52,7 +52,8 @@
                     </div>
 
                     <div class="wrapper-cart__item">
-                        <asp:ImageButton ID="ImageButton2" CssClass="header-btn header-btn--cart" ImageUrl="~/Publics/images/user.png"
+                        <asp:ImageButton ID="ibtnLogin" CssClass="header-btn header-btn--cart" ImageUrl="~/Publics/images/user.png"
+                            OnClick="ibtnLogin_Click"
                             runat="server" />
                         <span>Tài khoản</span>
                     </div>

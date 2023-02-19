@@ -1,107 +1,108 @@
 ﻿.container {
-width:100%;
-max-width:1200px;
-margin:0 auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .header {
-display: flex;
-align-items:center;
-gap:50px;
-justify-content: space-between;
-}
-
-.header .logo-link {}
-
-.header .logo-link .logo-link__img {}
-
-.header .wrapper-search {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    flex: 1;
-    width: 100%;
-}
-
-.header .wrapper-search .search {
     display: flex;
     align-items: center;
-    border:1px solid #ccc;
-    width:100%;
+    gap: 50px;
+    justify-content: space-between;
 }
 
-.header .wrapper-search .search .search__input {
-    width:100%;
-    padding:5px 20px;
-    outline: none;
-    border: none;
-    border-right:1px solid #ccc;
-}
+    .header .logo-link {
+    }
 
-.header .wrapper-search .search .search__btn {
-    padding:5px;
-    background-color:#fff;
-    outline:none;
-    border:none;
+        .header .logo-link .logo-link__img {
+        }
 
-    cursor:pointer;
-}
+    .header .wrapper-search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        flex: 1;
+        width: 100%;
+    }
 
-.header .wrapper-search .search .search__btn:hover {
-    background-color:#ddd;
-}
+        .header .wrapper-search .search {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            width: 100%;
+        }
 
-.header .wrapper-search .wrapper-contact {
-    display:flex;
-    align-items:center;
-    justify-content: space-around;
-    width:100%;
-}
+            .header .wrapper-search .search .search__input {
+                width: 100%;
+                padding: 5px 20px;
+                outline: none;
+                border: none;
+                border-right: 1px solid #ccc;
+            }
 
-.header .wrapper-search .wrapper-contact .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-}
+            .header .wrapper-search .search .search__btn {
+                padding: 5px;
+                background-color: #fff;
+                outline: none;
+                border: none;
+                cursor: pointer;
+            }
 
-.header .wrapper-search .wrapper-contact .contact .contact__link.contact__link--title {
-    font-size:1.4rem;
-    text-transform: uppercase;
-    color:#000;
-    font-weight: 500;
-}
+                .header .wrapper-search .search .search__btn:hover {
+                    background-color: #ddd;
+                }
 
-.header .wrapper-search .wrapper-contact .contact .contact__link.contact__link--number {
-    font-size: 1.5rem;
-    color: #ff9c00;
-}
+        .header .wrapper-search .wrapper-contact {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+        }
 
-.header .wrapper-cart {
-   display:flex;
-   gap:16px;
-}
+            .header .wrapper-search .wrapper-contact .contact {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
+            }
 
-.header .wrapper-cart .wrapper-cart__item {
-    display:flex;
-    flex-direction:column;
-    gap:8px;
-    align-items:center;
-}
+                .header .wrapper-search .wrapper-contact .contact .contact__link.contact__link--title {
+                    font-size: 1.4rem;
+                    text-transform: uppercase;
+                    color: #000;
+                    font-weight: 500;
+                }
 
-.header .wrapper-cart .wrapper-cart__item > span {
-    font-size: 1.4rem;
-}
+                .header .wrapper-search .wrapper-contact .contact .contact__link.contact__link--number {
+                    font-size: 1.5rem;
+                    color: #ff9c00;
+                }
 
-.header .wrapper-cart .wrapper-cart__item > span:hover {
-    color:#fa5c17;
-    cursor:pointer;
-}
+    .header .wrapper-cart {
+        display: flex;
+        gap: 16px;
+    }
 
-.header .wrapper-cart .wrapper-cart__item .header-btn {
-    width: 32px;
-}
+        .header .wrapper-cart .wrapper-cart__item {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            align-items: center;
+        }
+
+            .header .wrapper-cart .wrapper-cart__item span {
+                font-size: 1.4rem;
+            }
+
+            .header .wrapper-cart .wrapper-cart__item > span:hover {
+                color: #fa5c17;
+                cursor: pointer;
+            }
+
+            .header .wrapper-cart .wrapper-cart__item .header-btn {
+                width: 32px;
+            }
 
 /*Navigation*/
 
@@ -110,38 +111,39 @@ justify-content: space-between;
     box-shadow: 0 2px 5px #0000001a;
 }
 
-.navigate .nav-list {
-    display:flex;
-    justify-content:center;
-    width:100%;
-}
-.navigate .nav-list ul {
-        list-style: none;
+    .navigate .nav-list {
         display: flex;
-        align-items: center;
-        gap: 8px;
+        justify-content: center;
+        width: 100%;
     }
 
-.navigate .nav-list ul li {
-}
+        .navigate .nav-list ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
 
-.navigate .nav-list ul li >a {
-    color:#000;
-    text-transform: uppercase;
-    padding:10px;
-    display:block;
-    font-size:1.4rem;
-    font-weight:600;
-}
+            .navigate .nav-list ul li {
+            }
 
-.navigate .nav-list ul li:hover > a {
-    color: rgb(189 32 38);
-}
+                .navigate .nav-list ul li > a {
+                    color: #000;
+                    text-transform: uppercase;
+                    padding: 10px;
+                    display: block;
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                }
+
+                .navigate .nav-list ul li:hover > a {
+                    color: rgb(189 32 38);
+                }
 
 
 
 .test {
-    display:flex;
-    gap:10px;
-    align-items:center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
